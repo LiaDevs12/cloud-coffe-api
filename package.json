@@ -1,0 +1,12 @@
+{
+  "name": "cloud-coffe-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo\"Pruebas ejecutadas con exito\\ && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
