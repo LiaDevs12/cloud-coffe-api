@@ -7,5 +7,24 @@
 <body>
   <h1>Bienvenido a Cloud Coffee</h1>
   <p>El mejor café gestionado desde la nube.</p>
+  <section id="promociones">
+    <h2>Promociones Especiales</h2>
+    <form id="form-promociones">
+        <label for="precio-base">Precio del pedido ($):</label>
+        <input type="number" id="precio-base" value="50" min="1" required>
+
+        <label for="tipo-descuento">Selecciona tu promoción:</label>
+        <select id="tipo-descuento">
+            <option value="0">Sin promoción</option>
+            <option value="10">Estudiante (10% de descuento)</option>
+            <option value="15">Cumpleaños (15% de descuento)</option>
+        </select>
+
+        <button type="button" onclick="calcularDescuento()">Calcular Total</button>
+    </form>
+    <h3>Total a pagar: $<span id="resultado-total">50.00</span></h3>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
