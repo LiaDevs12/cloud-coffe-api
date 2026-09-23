@@ -1,12 +1,12 @@
 {
   "name": "cloud-coffe-api",
   "version": "1.0.0",
+  "description": "API de café en la nube",
   "main": "index.js",
   "scripts": {
-    "test": "echo\"Pruebas ejecutadas con exito\\ && exit 0"
+    "test": "echo \"Pruebas ejecutadas con exito\""
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
